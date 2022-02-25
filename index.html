@@ -8,14 +8,16 @@
     <title>Index</title>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
        
   </head>
   <body>
   <div class="wrapper">
-    <header>
-        <img src="assests/images/logo.png"  alt="logo">
-        <a href="login.html" target="_self">Login</a>
-    </header>
+    <div class="header">
+        <div id="h1"><img class="header-logo" src="assests/images/logo.png" alt="logo"></div>
+        <div id="h2"><a href="login.html" target="_self">Login</a></div>
+    </div> 
+
 
     <div class="content">
         <div class="search-bar">
@@ -46,10 +48,16 @@
 
     </div>
 
-    <footer>
+    <div class="footer">
         <div class="contact-us">
             <a href="contact.html" target="_self">Contact Us</a>
         </div>
+
+        <div class="copyright">
+            <span>&#169;</span>
+            <span> 2020 ROOM SEARCH PVT. LTD.</span>
+        </div>   
+
 
         <div class="social-media">
             <span><a href="https://en-gb.facebook.com/login/" target="_blank">
@@ -66,12 +74,9 @@
             </span>
         </div>
 
-        <div class="copyright">
-            <span>&#169;</span>
-            <span> 2020 ROOM SEARCH PVT. LTD.</span>
-        </div>   
+       
 
-    </footer>
+    </div>
     </div>
   </body>
 </html>
