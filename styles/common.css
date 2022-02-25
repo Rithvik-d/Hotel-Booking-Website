@@ -5,7 +5,16 @@ body{
     background-color: #e0e0e0;
     font-family: 'Ubuntu', sans-serif;
 }
+.wrapper{
+    height:100%;
+    width:100%;
+}
+.content{
+    height: 100%;
+    overflow-y: auto;
+}
 .footer{
+    width: 100%;
     background-color: rosybrown;
     position: sticky;
     bottom: 0px;
@@ -17,6 +26,7 @@ body{
     height:64px;
 }
 .header{
+    width: 100%;
     background-color: rosybrown;
     position: sticky;
     top: 0;
@@ -25,22 +35,18 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.wrapper{
-    height:100%;
-    width:100%;
-}
 .header>#h1>img{
     height: 60px;
     width:60px;
 }
 .header>#h1>a>img{
     height: 60px;
-    width:60x;
+    width:60px;
 }
 .footer>.social-media>span>a>img{
     height: 20px;
     width: 22px;
-} 
+}
 a{
     text-decoration: none;
     color: black;
@@ -60,3 +66,12 @@ a{
 .footer>.copyright>span{
     font-size: 10px;
 }
+.loaderDiv{
+    position: relative;
+    display: none;
+}
+.loaderDiv>iframe{
+    width: 100%;
+    align-self: center;
+}
+
